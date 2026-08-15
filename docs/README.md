@@ -136,7 +136,7 @@ PhotoShow offers flexible settings at two levels:
 - **Whitelist Mode**: Disable PhotoShow globally, then enable per site with its popup toggle.
 - **Viewer Trigger**: Require an assist key press to show the viewer.
 - **Thumbnail Types** & **Viewer Exceptions**: Control which thumbnails trigger the viewer.
-- **Viewer Positions**: Default is beside the thumbnail, but you can allow fullscreen by choosing `center`.
+- **Viewer Positions**: Default is beside the thumbnail, but you can allow fullscreen by choosing `Overlap`.
 - **Image Info Display**: Show image captions, dimensions, formats, or file sizes.
 - **New Tab Opening Behavior**: Choose whether new image tabs open in the foreground or background.
 - **Transition Animation**: Smooth animations, or reduce/disable them.
@@ -204,7 +204,11 @@ PhotoShow offers flexible settings at two levels:
   In **Image Download** settings, select `jpg` as the file extension. PhotoShow converts the format automatically when saving.
 
 - **How do I view fullscreen images?**  
-  Enable the `center` option in **Viewer Positions**.
+  Enable the `Overlap` option under **Viewer Positions**. This allows the image viewer to overlap the thumbnail and use up to the entire screen for displaying the image.
+
+  > :information_source: Note:
+  >
+  > **View Modes** other than “**Fit**” may enable image scrolling or navigation when needed (e.g., for large or ultra-wide/tall images). When this happens, the viewer is positioned around the thumbnail to support those interactions and therefore may not expand to fullscreen.
 
 - **Can the viewer stay on screen after moving the mouse away?**  
   Not yet. PhotoShow is designed for a quick, clean “fast-in fast-out” experience, so the viewer closes automatically when your mouse leaves. A future update will add more options for this behavior.
